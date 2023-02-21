@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body background="epica.jpg">
+<center>
+  	<h3 class= "heading">Ink Sans DJ App
+	    <br>
+	    <span class="notee">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed</span>
+  	</h3>
+	<br><br>
+  <div class="div_speed">
+<img src="disk.gif" alt="" class="div_img_speed">
+<br>
+<h4 class="btn btn-danger" id="speed">Speed</h4>
+  </div>
+  <div class="div_volume">
+    <img src="disk.gif" alt="" class="div_img_volume">
+    <br>
+    <h4 class="btn btn-danger" id="volume">Volume</h4>
+      </div>
+      <br>
+      <br>
+      <button onclick="play()" class="play_button btn btn-success">PLAY</button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>

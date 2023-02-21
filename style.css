@@ -1,0 +1,47 @@
+.heading{
+font-size: 25px;
+width:99%;
+margin: 0px;
+color: purple;
+box-shadow: 12px 12px 2px 1px rgba(160, 55, 229, 0.2);
+background-color: aquamarine;
+}
+.notee{
+font-size: 15px;
+color: black;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-size:cover;
+}
+.div_speed{
+    float: left;
+}
+.div_img_speed{
+width:200px;
+border-radius: 100px;
+}
+#speed{
+    font-size: 22px;
+margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+.div_img_volume{
+width:200px;
+border-radius: 100px;
+}
+#volume{
+    font-size: 22px;
+margin: 15px;
+}
+.play_button{
+font-size: 26px;
+width: 120px;
+border-radius:70;
+}
+canvas{
+border: 5px dashed aquamarine;
+border-radius: 110px;
+}
